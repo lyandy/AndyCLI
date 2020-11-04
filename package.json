@@ -1,0 +1,31 @@
+{
+  "name": "andycli",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "andyvue": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "andy",
+    "vue",
+    "coderandy",
+    "cli"
+  ],
+  "author": "Andy.Li",
+  "license": "MIT",
+  "homepage": "https://github.com/lyandy/AndyCLI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyandy/AndyCLI.git"
+  },
+  "dependencies": {
+    "commander": "^6.2.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.5",
+    "open": "^7.3.0"
+  }
+}
